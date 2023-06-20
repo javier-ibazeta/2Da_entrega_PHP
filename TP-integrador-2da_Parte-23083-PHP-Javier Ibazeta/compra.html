@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+                    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="styles_compra.css">
+    <title>Compra</title>
+</head>
+<body>
+
+    <div class="grid-container">
+        
+        <div class="bloques">
+            <div class="estudiante">
+                <h3>Estudiante</h3>
+                <h5>Tienen un descuento</h5>
+                <h3>80%</h3>
+                <h6>* presentar documentacion</h6>
+            </div>            
+
+            <div class="trainee">
+                <h3>Trainee</h3>
+                <h5>Tienen un descuento</h5>
+                <h3>50%</h3>
+                <h6>* presentar documentacion</h6>
+            </div>
+            <div class="junior">
+                <h3>Junior</h3>
+                <h5>Tienen un descuento</h5>
+                <h3>15%</h3>            
+                <h6>* presentar documentacion</h6>
+            </div>
+        </div>
+    
+        <div class="titulo1" >
+            <h5>VENTA</h5>
+            <h2>VALOR DE TICKET $ 200 </h2>
+        </div>
+        
+        <div class="datos"> 
+            <div class="nombre">
+                <input type="text" id="nombre" placeholder="Nombre" > 
+            </div>
+            
+            <div class="apellido">
+                <input type="text" id="apellido" placeholder="Apellido" > 
+            </div> 
+        </div>
+     
+            
+        <div class="correo">
+            <input type="text" id="correo" placeholder="Correo" >
+
+        </div>
+
+        <div class="labels">    
+            <div class="label1">
+                <label for="texto">Cantidad</label>
+                <input type="text" id="cantidad" placeholder="Cantidad" >
+            </div>
+
+            <div class="label2">
+                <label for="texto" >Cantegoria</label>
+                <select id="opciones">
+                    <option value="1">Estudiante</option>
+                    <option value="2">Trainee</option>
+                    <option value="3">Junior</option>
+                </select>
+            </div>
+        </div>
+
+        <div class = "precio">
+            <input type="text" id="precio" placeholder="Total a pagar: $" >
+            
+        </div>
+        
+        <div class="botones">
+            <button id="boton1">Borrar</button>
+            <button type="button" class="btn_CT" id="boton2" onclick="funcResumen()">Resúmen</button>
+        </div>
+                          <!-- End -->
+
+    </div>    
+
+<script src="script.js"></script>
+              <!-- Enlaces a boostrap -->
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

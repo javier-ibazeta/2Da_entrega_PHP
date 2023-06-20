@@ -1,0 +1,240 @@
+/*import google fonts*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+            /* Header */
+
+.cabecera {
+    position: sticky;
+    top: 0;
+    background-color:rgb(26, 24, 24);
+    display:flex;
+    justify-content: space-around;
+   
+}
+
+.Log-Con{
+    display: flex;
+    align-items: center;
+    
+}
+.cabecera .logo img{
+    width: 180px;
+    height: 100px; 
+    
+}
+.conf{
+    color: white;
+    font-size: 30px;
+     
+}
+
+.navbar navbar-expand-sm bg-dark navbar-dark {
+    background-color: rgb(46, 44, 44); 
+}
+
+        /* imagen central y anuncio */
+.seccion-portada img{
+    filter: brightness(60%); 
+}
+
+.seccion-portada{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: url(/ba1.jpg);
+    justify-content:right;
+}
+.seccion-portada h4{
+    position:absolute;
+    color:white;    
+    text-align: right;
+    right: 5%;
+    top: 75%;
+}
+.parrafo-portada {
+    size: 70px;
+    padding-left: 0px;
+    width: 35%;
+    height: 25%;
+    font-size: 2.5 rem;
+    color:white;
+    position:absolute;
+    right: 5%;
+    top: 80%; 
+    text-align:right;
+    font-weight:400;
+        
+}
+
+.botones-portada{
+    position: absolute;
+    align-items:end;
+    right: 5%;
+    top: 100%; 
+}
+.btn_QO {
+    background-color: transparent;
+    border: 1.5px solid #fbfcfc;
+    color: #fbfcfc;
+    height: 50px;
+    width: 200px;
+    font-weight:600;/* densidad de la letra */
+       
+}
+.btn_CT{
+    background-color:darkgreen;
+    color: #fbfcfc;
+    height: 50px;
+    width: 200px;
+
+}
+
+.titulos{
+    text-align: center;
+}
+.titulos h6{
+    
+    margin-top: 0;
+}
+        /* Cards disertantes */
+
+.flex-container{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content:space-around;
+}
+.card{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.quien_es{
+    margin-top: 25px;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+.quien_es h6{
+    padding-top: 5px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+.quien_es .javascript {
+    background-color: rgb(229, 208, 16);
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.quien_es .react{
+    background-color: rgb(83, 171, 176);
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.quien_es .negocios {
+   
+    background-color: gray;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    
+  
+}
+.quien_es .startups{
+    
+    background-color: rgb(246, 85, 85);
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+    /* Imagen de la playa */
+.playa{
+    display:flex;
+    margin-top: 20px;
+}
+
+.playa .paisaje img{
+    width:100%;
+
+}
+.playa .recuadro_oscuro{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(46, 44, 44);
+    color:white;
+    font-size: 17px;
+}
+
+        /* Formulario de contacto */
+
+.Formulario-títulos h6{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    
+} 
+.Formulario-títulos h3{
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 600;
+    
+}
+
+.formulario .Formulario-títulos h6 span{
+   
+    text-decoration-style: dotted;
+    
+}
+.flex-container{
+    display: flex;
+    
+}
+.formulario .ingreso-datos input {
+    width: 400px;
+}
+.formulario .ingreso-datos {
+    
+    display:flex;
+    width: 900px;
+    justify-content:space-between;
+    padding-bottom: 20px;
+    
+}
+.formulario .area-tema{
+   height: auto;
+    
+}
+
+/* .formulario .boton{
+    display: flex;
+    justify-content:space-between;
+
+} */
+
+                /* Footer  */
+.pie{
+    margin-top: 10px;
+    background-color:rgb(50, 73, 91);
+    display:flex;
+    justify-content:space-evenly; 
+    text-align: center;
+   
+    
+}
+.pie a{
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+   
+}
+.navbar ul li{
+    display: inline-block;
+}
